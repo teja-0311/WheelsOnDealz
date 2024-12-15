@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9a826;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #f9a826;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #cb667d;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form input {
+    padding: 10px;
+    font-size: 16px;
+    
+    border: none;
+    width: 300px;
+}
+
+.search-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f9a826;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #e0891a;
+}
+
+/* Featured Cars */
+.featured-cars {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-cars h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.car {
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for smooth hover effects */
+}
+
+.car img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.car p {
+    color: #f9a826;
+    font-size: 16px;
+}
+
+/* Hover effect for car elements */
+.car:hover {
+    transform: scale(1.05); /* Slightly enlarge the car element */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    padding: 10px;
+}
+
+.feature h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature p {
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.banner {
+    background: url('https://www.savaari.com/assets/img/homepage/june-banners_desktop_without-text.webp') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Booking Form Section */
+.booking-section {
+  
+    padding: 20px;
+    background: #fff;
+    margin: -50px auto 20px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.booking-section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.booking-section form div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px; /* Adjust this for responsive design */
+}
+
+.booking-section form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.booking-section form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.booking-section form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the Explore Cabs Button */
+.booking-section form button {
+    /* Center the button horizontally */
+    width: 20%; /* Match the width in the image */
+    background-color: #1c85e8; /* Blue color similar to the image */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0; /* Larger padding for height */
+    border: none;
+    border-radius: 30px; /* Circular button style */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.booking-section form button:hover {
+    background-color: #0066cc; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight upward movement on hover */
+}
+/* Styling for the Cart Page */
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #f1f1f1;
+}
+
+.cart-footer {
+    text-align: center;
+}
+
+.cart-footer button {
+    padding: 10px 20px;
+    background-color: #E8BC0E;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-footer button:hover {
+    background-color: #d39e0a;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}

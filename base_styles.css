@@ -1,0 +1,128 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    color: #555;
+}
+
+/* Action links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+.no-data {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#addVehicleButton {
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#backButton {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #218838;
+}

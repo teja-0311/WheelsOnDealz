@@ -1,8 +1,11 @@
 {
+  "homepage": "https://teja-0311.github.io/Wheels_Dealz",
   "name": "package.json",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
